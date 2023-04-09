@@ -75,8 +75,12 @@ body {
 .site-nav {
  display: flex;
  align-items: center;
- transition: color var(--transition-duration-and-func);
+ }
+
+.site-nav-link {
+transition: color var(--transition-duration-and-func);
 }
+
 
 .site-nav-studio {
 display: block;
@@ -584,7 +588,6 @@ transition: color var(--transition-duration-and-func);
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
- overflow-y: scroll;
  transform: translate(0, 100%);
  transition: var(--transition-duration-and-func);
  padding-top: 32px;
