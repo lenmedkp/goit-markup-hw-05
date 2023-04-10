@@ -79,12 +79,13 @@ body {
 
 .site-nav-link {
 transition: color var(--transition-duration-and-func);
-}
+ }
 
 
 .site-nav-studio {
 display: block;
 position: relative;
+transition: background-color var(--transition-duration-and-func);
 }
 
 .site-nav-studio::after {
@@ -101,6 +102,7 @@ position: relative;
   display: block;
   position: relative;
   color: currentColor;
+  transition: background-color var(--transition-duration-and-func);
   }
 
 .site-nav-portfolio::after {
@@ -111,13 +113,13 @@ position: relative;
   height: 4px;
   background-color: #404BBF;
   margin-top: 24px;
-  transition: background-color var(--transition-duration-and-func);
 }
 
 .site-nav-contacts {
   display: block;
   position: relative;
   color: currentColor;
+  transition: background-color var(--transition-duration-and-func);
   }
 
 .site-nav-contacts::after {
@@ -128,8 +130,7 @@ position: relative;
   height: 4px;
   background-color: #404BBF;
   margin-top: 24px;
-  transition: background-color var(--transition-duration-and-func);
-}
+ }
 
 .contacts {
 transition: color var(--transition-duration-and-func);
@@ -418,7 +419,7 @@ transition: color var(--transition-duration-and-func);
   border-radius: 4px;
   border: 1px solid #8e8f99;
   color: #8e8f99;
-  transition:  border color var(--transition-duration-and-func);
+  transition: сolor var(--transition-duration-and-func);
 }
 
 .section-customers-icon {
@@ -589,7 +590,7 @@ transition: color var(--transition-duration-and-func);
  line-height: 1.5;
  letter-spacing: 0.02em;
  transform: translate(0, 100%);
- transition: var(--transition-duration-and-func);
+ transition: transform var(--transition-duration-and-func);
  padding-top: 32px;
  padding-bottom: 164px;
  padding-left: 32px;
